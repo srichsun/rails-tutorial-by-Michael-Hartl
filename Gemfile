@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+ source 'https://rubygems.org'
 
 gem 'rails',                   '5.1.2'
 gem 'bcrypt',                  '3.1.11'
@@ -28,6 +28,7 @@ group :development do
   gem 'listen',                '3.0.8'
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 group :test do
